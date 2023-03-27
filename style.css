@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'monster';
+    src: url('/resources/monster.ttf');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #39FF13 ;
+}
+
+header{
+  font-size: 50px;
+  font-family: 'monster';
+  margin: 15px 4px 15px 22px;
+  padding: 0px 0px 0px 0px;
+}
+.play{
+  display: flex;
+  justify-content: center;
+}
+button{
+  width: 100px;
+  height: 100px;
+  margin: 65px 60px 6px 8px;
+  padding: 0px 0px 0px 0px;
+
+}
+.showcase{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 23px;
+  left: 19px;
+  font-size: 20px;
+  font-family: sans-serif , 'Times New Roman', Times, serif;
+  margin: 15px 4px 15px 22px;
+  padding: 0px 0px 0px 0px;
+
+}
+.playscore , .playchoice , .compscore , .compchoice , .result{
+  margin: 5px 0px 1px 2px;
+  padding: 0px 0px 0px 0px;
+}
